@@ -23,7 +23,8 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY:
 ```sql
-create table student(rollno int,name varchar(10),age int,address varchar(16),phoneno int);```
+create table student(rollno int,name varchar(10),age int,address varchar(16),phoneno int);
+```
 
 
 ### OUTPUT:
@@ -34,7 +35,9 @@ create table student(rollno int,name varchar(10),age int,address varchar(16),pho
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-``alter table student add department varchar(10);``
+```sql
+alter table student add department varchar(10);
+```
 
 ### OUTPUT:
 ![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/c4d910c5-19f3-4108-9f06-23accd1dc006)
@@ -49,7 +52,9 @@ create table student(rollno int,name varchar(10),age int,address varchar(16),pho
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-`` drop table student;``
+```sql
+drop table student;
+```
 
 ### OUTPUT:
 ![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/78efa1b2-e539-4fb7-bd7f-ee14f54f7808)
@@ -57,7 +62,9 @@ create table student(rollno int,name varchar(10),age int,address varchar(16),pho
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-``TRUNCATE TABLE student;``
+```sql
+TRUNCATE TABLE student;
+```
 
 ### OUTPUT:
 ![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/5d44392b-8e64-4110-89e8-deef85651523)
