@@ -78,3 +78,5 @@ TRUNCATE TABLE student;
 ### OUTPUT:
 ![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/13071f0e-7a0a-4bc4-b2f1-72764f221184)
 
+# RESULT:
+thus the student table was successfully created.
